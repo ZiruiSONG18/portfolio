@@ -28,4 +28,6 @@ I write a program for this robot car in order that it can move along a straight 
    The following diagram basically shows the whole project structure.
 
    ![](1.jpg)
-2.
+2. Get Fundamental Data
+
+   Since we need a system to help robot car move straightly, we need the original data of the car's movement
