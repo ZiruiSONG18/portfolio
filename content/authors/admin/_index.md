@@ -18,8 +18,8 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/zirui-song-459368230/
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: The Hong Kong Polytechnic University
+    url: https://www.polyu.edu.hk/
 education:
   courses:
     - course: PhD in Artificial Intelligence
