@@ -45,7 +45,7 @@ I write a program for this robot car in order that it can move along a straight 
    ```
    G(s)=520/44999*(0.588/(s+0.588))
    ```
-3. Design PI Controller
+3. Design PID Controller
 
    To reduce the steady-state-error, we need to design a PI compensator for this transfer function. Here, frequency response method was used. I plotted the bode diagram of G(s)
 
@@ -54,11 +54,84 @@ I write a program for this robot car in order that it can move along a straight 
    After we choose an appropriate 0-dB frequency, we could have:
 
    ```
-   G_C (s)=1333.5 (s+0.901)/s
+   G_C(s)=1333.5 (s+0.901)/s
    ```
 
    Then, I convert it into z-domain by Tustin method to implement digital system design: 
 
    ```
-   G_CZ (z)=Z{G_C (s)}=(1335z-1332)/(z-1)=D/E
+   G_CZ(z)=Z{G_C(s)}=(1335z-1332)/(z-1)=D/E
+
+   D[k]=D[k-1]+1335E[k]-1332E[k-1]
+   ```
+
+   Then I could get transfer function of outside system in that block diagram:
+
+   ```
+   G_2(s)=2*feedback(G(s)×G_C(s), 1)=(15.41(s+0.901))/((s+0.9209)(s+15.08))=T(s)
+   ```
+
+   We can also plot its frequency response:
+
+   ![](3.jpg)
+
+   With the basically similar approach, we get its digital design:
+
+   ```
+   r[k]=r[k-1]+0.49911w[k]-0.49911w[k-1]
+   ```
+4. Simulation
+
+   Up to now, we finished our design, But it is very important to simulate the system to check if it can work well and meet our requirements before we implement it.
+
+   Using Simulink in Matlab:
+
+   ![](4.jpg)
+
+   We could find if the simulation result is acceptable:
+
+   ![](5.jpg)
+
+   From this image, we found that the speed reached steady state quite soon. So it is acceptable. Now, we can try to implement the system.
+5. Implementation
+
+   Since main.cpp is about how the robot car starts and how to record speed value, I would like to here show some cores of control.cpp which directly relates to this PID controller implementation.
+
+   ```
+   u_left = u_left_previous + 1335*eL - 1332*eL_previous;
+
+   u_right = u_right_previous + 1335*eR - 1332*eR_previous;
+
+   //u_left is the output of left closed loop wheel system(subsystem), and eL is the input for the system.
+
+   //u_right is the output of right closed loop wheel system(subsystem), and eR is the input for the system.
+   ```
+
+   The inside feedback control system has been implemented, and we try to use the outputs of this system to be the inputs of outside feedback control syste.
+
+   ```
+   double w = -(u_left - u_right);
+
+   //In my trial, the left speed is larger than right speed.
+
+   //So, w is negative to feedback control the whole system.
+
+   r = r_previous + 0.49911*w - 0.49911*w_previous
+
+   //r is the output of the outside compensator, and it is negative.
+
+   ```
+
+   After implementing these digital controls above, we need to determine the relationships among these variables:
+
+   ```
+   eL = left + r - u_left;
+
+   //r is negative, so it can cancel the larger left side.
+
+   eR = right - r - u_right;
+
+   //r is negative, so it can compensate the smaller right side.
+
+   //Then, eL and eR are treated as the inputs of the inside systems
    ```
