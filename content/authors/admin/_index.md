@@ -6,7 +6,8 @@ bio: My research interests include Computer Vision, Intelligent Embedded System
   and FPGA.
 interests:
   - Computer Vision
-  - Intelligent Embedded System and FPGA
+  - Intelligent Embedded System
+  - FPGA
 social:
   - icon: envelope
     icon_pack: fas
