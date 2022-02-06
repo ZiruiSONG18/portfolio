@@ -1,24 +1,20 @@
 ---
 slides: example
 url_pdf: ""
-summary: An example of using the in-built project page.
+summary: ""
 authors:
   - Zirui SONG
 url_video: ""
-date: 2022-02-06T21:10:28.559Z
+date: 2021-12-21T21:10:28.559Z
 external_link: ""
 url_slides: ""
 title: PID-based Robot Car
 tags:
   - PID Robot ar
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+links: []
 image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
+  caption: ""
+  focal_point: ""
 url_code: ""
 ---
 I write a program for this robot car in order that it can move along a straight line. In ideal situation, there is no difference between two wheels, which means that robot car will move along a straight line automatically. But in the reality, the real rotating speeds of two wheels are different due to kinds of factors. So, this robot car cannot move straightly if I simply set two fixed values to two wheels. Thus, a system with feedback control is needed to make sure that the final speeds of two wheels are the same.
@@ -146,3 +142,6 @@ I write a program for this robot car in order that it can move along a straight 
    ![](6.jpg)
 
    So, I finally met the requirements and I would like to share the experimental run video here.
+7. Conclusion
+
+   Through this small project, I reinforced the dynamic control system knowledge learned from class. If we want to achieve a better result, we could replace the original engine by more powerful one so that it would reach the steady state faster.
