@@ -135,3 +135,12 @@ I write a program for this robot car in order that it can move along a straight 
 
    //Then, eL and eR are treated as the inputs of the inside systems
    ```
+
+   Then, I just replace every \[k-1] item by current  \[k] item to prepare for the next round. At last, the value of u_left and u_right will be sent to left and right as the PWM values to control the robot car.
+6. Design Verification
+
+   In more than 3 times consecutive run, the robot car could move in a straight line. I plot the record of two wheels' speed here:
+
+   ![](6.jpg)
+
+   ![]()
