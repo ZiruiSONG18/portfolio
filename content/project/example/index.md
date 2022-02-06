@@ -148,7 +148,7 @@ I write a program for this robot car in order that it can move along a straight 
 
    So, I finally met the requirements and I would like to share the experimental run video here.
    
-   {{< video src="3105.mp4" controls="yes" >}}
+   video src="3105.mp4" controls="yes" 
    
 7. Conclusion
 
