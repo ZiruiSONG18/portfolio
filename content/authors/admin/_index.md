@@ -22,15 +22,9 @@ organizations:
     url: https://www.polyu.edu.hk/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BEng in Electronic and Information Engineering
+      institution: The Hong Kong Polytechnic University
+      year: ""
 email: ""
 superuser: true
 highlight_name: true
