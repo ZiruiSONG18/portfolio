@@ -26,6 +26,7 @@ I write a program for this robot car in order that it can move along a straight 
    The following diagram basically shows the whole project structure.
 
    ![](1.jpg)
+
 2. Get Fundamental Data
 
    Since we need a system to help robot car move straightly, we need the original data of the car's movement. 
@@ -43,6 +44,7 @@ I write a program for this robot car in order that it can move along a straight 
    ```
    G(s)=520/44999*(0.588/(s+0.588))
    ```
+
 3. Design PID Controller
 
    To reduce the steady-state-error, we need to design a PI compensator for this transfer function. Here, frequency response method was used. I plotted the bode diagram of G(s)
@@ -78,6 +80,7 @@ I write a program for this robot car in order that it can move along a straight 
    ```
    r[k]=r[k-1]+0.49911w[k]-0.49911w[k-1]
    ```
+
 4. Simulation
 
    Up to now, we finished our design, But it is very important to simulate the system to check if it can work well and meet our requirements before we implement it.
@@ -91,6 +94,7 @@ I write a program for this robot car in order that it can move along a straight 
    ![](5.jpg)
 
    From this image, we found that the speed reached steady state quite soon. So it is acceptable. Now, we can try to implement the system.
+
 5. Implementation
 
    Since main.cpp is about how the robot car starts and how to record speed value, I would like to here show some cores of control.cpp which directly relates to this PID controller implementation.
@@ -135,6 +139,7 @@ I write a program for this robot car in order that it can move along a straight 
    ```
 
    Then, I just replace every \[k-1] item by current  \[k] item to prepare for the next round. At last, the value of u_left and u_right will be sent to left and right as the PWM values to control the robot car.
+   
 6. Design Verification
 
    In more than 3 times consecutive run, the robot car could move in a straight line. I plot the record of two wheels' speed here:
@@ -142,6 +147,9 @@ I write a program for this robot car in order that it can move along a straight 
    ![](6.jpg)
 
    So, I finally met the requirements and I would like to share the experimental run video here.
+   
+   ![](3105.mp4)
+   
 7. Conclusion
 
    Through this small project, I reinforced the dynamic control system knowledge learned from class. If we want to achieve a better result, we could replace the original engine by more powerful one so that it would reach the steady state faster.
