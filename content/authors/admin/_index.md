@@ -1,7 +1,7 @@
 ---
 title: Zirui SONG
 role: "Undergraduate of Electronic and Information Engineering "
-avatar_filename: ""
+avatar_filename: 9940-1.jpg
 bio: My research interests include Computer Vision, Intelligent Embedded System
   and FPGA.
 interests:
