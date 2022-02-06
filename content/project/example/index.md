@@ -2,13 +2,15 @@
 slides: example
 url_pdf: ""
 summary: An example of using the in-built project page.
+authors:
+  - Zirui SONG
 url_video: ""
 date: 2022-02-06T21:10:28.559Z
 external_link: ""
 url_slides: ""
 title: PID-based Robot Car
 tags:
-  - Deep Learning
+  - PID Robot ar
 links:
   - icon: twitter
     icon_pack: fab
@@ -143,4 +145,4 @@ I write a program for this robot car in order that it can move along a straight 
 
    ![](6.jpg)
 
-   ![]()
+   So, I finally met the requirements and I would like to share the experimental run video here.
