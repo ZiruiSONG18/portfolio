@@ -1,20 +1,21 @@
 ---
-
 url_pdf: ""
+date: 2021-12-21T21:10:28.559Z
 summary: ""
 authors:
   - Zirui SONG
 url_video: ""
-date: 2021-12-21T21:10:28.559Z
-external_link: ""
-url_slides: ""
 title: PID-based Robot Car
+featured: true
 tags:
   - PID Robot car
+external_link: ""
+url_slides: ""
 links: []
 image:
   caption: ""
   focal_point: ""
+  filename: 14.jpg
 url_code: ""
 ---
 I write a program for this robot car in order that it can move along a straight line. In ideal situation, there is no difference between two wheels, which means that robot car will move along a straight line automatically. But in the reality, the real rotating speeds of two wheels are different due to kinds of factors. So, this robot car cannot move straightly if I simply set two fixed values to two wheels. Thus, a system with feedback control is needed to make sure that the final speeds of two wheels are the same.
