@@ -25,7 +25,7 @@ experience:
   - title: Outbound Exchange
     company: Georgia Institute of Technology
     company_url: ''
-    company_logo: org-gc
+    company_logo: gatech.png
     location: Atlanta, USA
     date_start: '2022-01-05'
     date_end: '2022-05-07'
