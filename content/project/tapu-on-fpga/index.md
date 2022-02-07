@@ -15,4 +15,4 @@ To develop this TAPU, we adopted a dual-image FPGA, which is an integrated circu
 
 In this group, I touched some quite new edges of this field and learned how to research certain topics and how to handle such a project. It helped me gained much experience.
 
-I would like to share with you our demonstration video here:
+I would like to share with you our demonstration video here: https://www.youtube.com/watch?v=XXK5OcrP_mY
