@@ -20,6 +20,10 @@ feature:
   icon: fas fa-database
   icon_pack: fas
   name: Database
+- description: 70%
+  icon: fas fa-tv
+  icon_pack: fas
+  name: Computer Vision
 - description: 100%
   icon: fas fa-signal
   icon_pack: fas
