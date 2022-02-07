@@ -29,7 +29,7 @@ experience:
     location: Atlanta, USA
     date_start: '2022-01-05'
     date_end: '2022-05-07'
-    description: Coming to Gatech to exchange for one semester
+    description: Exchange for one semester
         
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
@@ -38,8 +38,11 @@ experience:
     location: Hong Kong
     date_start: '2019-09-01'
     date_end: '2023-08-31'
-    description: BEng Electronic and Information Engineering
-
+    description: >-
+        
+        * GPA:3.76
+        * Major in Electronic and Information Engineering
+        * Minor in Computing
 design:
   columns: '2'
 ---
