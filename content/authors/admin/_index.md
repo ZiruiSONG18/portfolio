@@ -26,6 +26,8 @@ education:
     - course: BEng in Electronic and Information Engineering
       institution: The Hong Kong Polytechnic University
       year: ""
+    - course: Exchange Student
+      institution: Georgia Institute of Technology
 email: ""
 superuser: true
 highlight_name: true
