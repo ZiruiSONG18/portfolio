@@ -17,15 +17,15 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 90%
-  icon: fas fa-database
+  icon: fa-database
   icon_pack: fas
   name: Database
 - description: 100%
-  icon: fas fa-signal
+  icon: fa-signal
   icon_pack: fas
   name: Digital Signal Processing
-- description: 10%
-  icon: fas fa-laptop-code
+- description: 90%
+  icon: fa-laptop-code
   icon_pack: fas
   name: C++/Java/Python
 
