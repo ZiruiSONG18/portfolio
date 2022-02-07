@@ -61,4 +61,4 @@ cutting wire, welding, heating protecting tube. The final wiring result provided
 
 Up to now, this trolley is developed basically. In the future we would like continuously develop it so that it can operated intelligently based on SLAM and other methods. This project really helped me gain much experience in ROS development and team-work.
 
-![](12.jpg)
+![](featured.jpg)
