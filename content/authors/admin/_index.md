@@ -33,5 +33,3 @@ superuser: true
 highlight_name: true
 ---
 Zirui SONG is an undergraduate of Electronic and Information Engineering at The Hong Kong Polytechnic University. His research interests include Computer Vision, Intelligent Embedded System and FPGA. He loves exploring different fields of technology related to his major and he would like to focus on projects that makes a difference in promoting human beings' better life.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
