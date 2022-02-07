@@ -38,7 +38,7 @@ experience:
     location: Hong Kong
     date_start: '2019-09-01'
     date_end: '2023-08-31'
-    description: >-
+    description: |2-
         
         * GPA:3.76
         * Major in Electronic and Information Engineering
