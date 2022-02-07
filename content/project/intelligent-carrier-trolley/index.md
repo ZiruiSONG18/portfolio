@@ -18,4 +18,12 @@ Stage 1 nearly continued for 3 weeks with a path that is not so fast. We basical
 
 **Stage 2**
 
-The second stage is the most time-consuming one
+The second stage is the most time-consuming stage. We focused on software about how to control our trolley to move in certain direction at certain speed.
+
+Two micro-controllers were used in our project. The one was STM32F103ZETb, and the other one was Raspberry Pi. They carried different work to perform their best so that we could get higher efficiency in this project. The below diagram (from Vincent Chan, PolyU) shows their relationship. The former one was a base controller to directly control two motors moving. And the latter carried Robot Operation System (ROS) to decide what speed and direction signals should be sent to base controller. Besides, it would perform artificial intelligence work in the work of next semester. These two controllers were connected together by USB cable to exchange information of cmd_vel and encoder. As for operators, we connected our laptop with Raspberry Pi with ssh so that we could use our keyboard as input and control our trolley.
+
+![](9.jpg)
+
+Then we started our work on codes development. We first used STM32CubeMX to set up hardware related properties such as labels, TIM status and other hardware related properties, which not only made sure that our controller would run successfully but also helped us save time in the later codes modification. After setting up these properties, we could generate our code in Keil uvision to further develop it.
+
+We first initialized our Timers so that we could use PWM to control the speed of motors. The motors would rotate in a higher speed if we set PWM with a higher duty cycle and this was the basic theorem that how we control our trolley.
