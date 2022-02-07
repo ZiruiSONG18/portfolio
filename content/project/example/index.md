@@ -1,5 +1,5 @@
 ---
-slides: example
+
 url_pdf: ""
 summary: ""
 authors:
@@ -10,7 +10,7 @@ external_link: ""
 url_slides: ""
 title: PID-based Robot Car
 tags:
-  - PID Robot ar
+  - PID Robot car
 links: []
 image:
   caption: ""
@@ -148,7 +148,7 @@ I write a program for this robot car in order that it can move along a straight 
 
    So, I finally met the requirements and I would like to share the experimental run video here.
    
-   "https://www.youtube.com/watch?v=5lemnanl604"
+   https://www.youtube.com/watch?v=5lemnanl604
    
 7. Conclusion
 
