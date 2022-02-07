@@ -29,7 +29,7 @@ experience:
     location: Atlanta, USA
     date_start: '2022-01-05'
     date_end: '2022-05-07'
-    description: 
+    description: Coming to Gatech to exchange for one semester
         
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
