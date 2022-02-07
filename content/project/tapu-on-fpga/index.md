@@ -5,7 +5,7 @@ draft: false
 featured: true
 authors: []
 image:
-  filename: 13.png
+  filename: featured.png
   focal_point: ""
   preview_only: false
 ---
