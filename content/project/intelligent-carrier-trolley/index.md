@@ -2,13 +2,13 @@
 title: Intelligent Carrier Trolley
 date: 2022-02-07T01:19:31.588Z
 draft: false
-featured: false
+featured: true
 authors:
   - Zirui SONG
 tags:
   - ROS
 image:
-  filename: ""
+  filename: 12.jpg
   focal_point: ""
   preview_only: false
 ---
