@@ -25,7 +25,7 @@ experience:
   - title: Outbound Exchange
     company: Georgia Institute of Technology
     company_url: ''
-    company_logo: gatech.png
+    company_logo: gatech
     location: Atlanta, USA
     date_start: '2022-01-05'
     date_end: '2022-05-07'
@@ -34,7 +34,7 @@ experience:
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
     company_url: ''
-    company_logo: polyu.png
+    company_logo: PolyU
     location: Hong Kong
     date_start: '2019-09-01'
     date_end: '2023-08-31'
