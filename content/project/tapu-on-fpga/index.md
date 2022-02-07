@@ -2,10 +2,10 @@
 title: TAPU on FPGA
 date: 2022-02-07T02:09:14.161Z
 draft: false
-featured: false
+featured: true
 authors: []
 image:
-  filename: ""
+  filename: 13.png
   focal_point: ""
   preview_only: false
 ---
