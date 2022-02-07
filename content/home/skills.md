@@ -16,22 +16,31 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+
   icon: fas fa-database
   icon_pack: fas
   name: Database
-- description: 70%
+
   icon: fas fa-tv
   icon_pack: fas
   name: Computer Vision
-- description: 100%
+
   icon: fas fa-signal
   icon_pack: fas
   name: Digital Signal Processing
-- description: 90%
+
   icon: fas fa-laptop-code
   icon_pack: fas
   name: C++/Java/Python
+
+  icon: fas fa-network-wired
+  icon_pack: fas
+  name: Computer Network
+
+  icon: fas fa-laptop-house
+  icon_pack: fas
+  name: Embedded System
+
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
