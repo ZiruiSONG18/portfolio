@@ -4,8 +4,8 @@ date: 2022-02-07T01:19:31.588Z
 draft: false
 featured: false
 image:
-  filename: featured
-  focal_point: Smart
+  filename: ""
+  focal_point: ""
   preview_only: false
 ---
 A group containing with groupmates coming from different majors focuses on this project that we would like to produce an intelligent carrier trolley with different controlling modes. I would like to share this interesting process by 3 satges.
@@ -55,4 +55,6 @@ cutting wire, welding, heating protecting tube. The final wiring result provided
 
 **Conclusion**
 
-Up to now, this trolley is developed basically. In the future
+Up to now, this trolley is developed basically. In the future we would like continuously develop it so that it can operated intelligently based on SLAM and other methods. This project really helped me gain much experience in ROS development and team-work.
+
+![](12.jpg)
