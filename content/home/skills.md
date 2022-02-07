@@ -17,17 +17,17 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 90%
-  icon: r-project
-  icon_pack: fab
-  name: R
+  icon: fas fa-database
+  icon_pack: fas
+  name: Database
 - description: 100%
-  icon: chart-line
+  icon: fas fa-signal
   icon_pack: fas
-  name: Statistics
+  name: Digital Signal Processing
 - description: 10%
-  icon: camera-retro
+  icon: fas fa-laptop-code
   icon_pack: fas
-  name: Photography
+  name: C++/Java/Python
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
