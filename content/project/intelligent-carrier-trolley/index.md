@@ -45,3 +45,14 @@ To control our motors, we used variable named as twin_motors_rotations. Accordin
 
 We also tried to develop a PID control system. PID includes three parts, which are
 Proportional, Integral and Derivative. Proportional part is used to multiple error, a value between target value and sensor reading value. Integral part is the running sum of previous errors, used for correcting movements when error is small. And Derivative part is the change in errors, which is used for predicting what the next error would be.
+
+**Stage 3**
+
+We started our wiring work and trolley configuration in this stage. I spent much time connecting different wires in this stage. It included some work such as
+cutting wire, welding, heating protecting tube. The final wiring result provided a reliable connection between motors and controllers and a power supply connection between battery, motors and controllers. The connecting wires made by myself is shown below.
+
+![](11.jpg)
+
+**Conclusion**
+
+Up to now, this trolley is developed basically. In the future
