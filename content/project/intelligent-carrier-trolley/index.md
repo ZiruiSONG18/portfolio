@@ -27,3 +27,21 @@ Two micro-controllers were used in our project. The one was STM32F103ZETb, and t
 Then we started our work on codes development. We first used STM32CubeMX to set up hardware related properties such as labels, TIM status and other hardware related properties, which not only made sure that our controller would run successfully but also helped us save time in the later codes modification. After setting up these properties, we could generate our code in Keil uvision to further develop it.
 
 We first initialized our Timers so that we could use PWM to control the speed of motors. The motors would rotate in a higher speed if we set PWM with a higher duty cycle and this was the basic theorem that how we control our trolley.
+
+```
+/* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_USART1_UART_Init();
+  MX_TIM1_Init();
+  MX_TIM3_Init();
+  MX_TIM4_Init();
+  MX_TIM5_Init();
+  MX_USB_DEVICE_Init();
+  MX_IWDG_Init();
+```
+
+To control our motors, we used variable named as twin_motors_rotations. According to the status of the variable, 0 or 1, the motors would be driven in clockwise direction or counterclockwise direction. To control the trolley turning right or left, we separately control two variables, linear velocity and angular velocity. The trolley would change its moving direction if we change the value of angular velocity because there would be a difference between the velocity of two motors caused by positive or negative angular velocity. As for how to change the rotating direction, we change the status of two different pins of motors to choose clockwise or counterclockwise.
+
+We also tried to develop a PID control system. PID includes three parts, which are
+Proportional, Integral and Derivative. Proportional part is used to multiple error, a value between target value and sensor reading value. Integral part is the running sum of previous errors, used for correcting movements when error is small. And Derivative part is the change in errors, which is used for predicting what the next error would be.
