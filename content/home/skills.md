@@ -41,7 +41,6 @@ feature:
   icon_pack: fas
   name: Embedded System
 
-
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
