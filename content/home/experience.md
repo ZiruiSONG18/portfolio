@@ -22,15 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Outbound Exchange
-    company: Georgia Institute of Technology
+
+  - title: Graduate
+    company: Cornell University
     company_url: ''
-    company_logo: gatech
-    location: Atlanta, USA
-    date_start: '2022-01-05'
-    date_end: '2022-05-07'
-    description: Exchange for one semester
+    company_logo: PolyU
+    location: Ithaca, NY, United States
+    date_start: '2023-08-21'
+    date_end: '2024-12-31'
+    description: |2-
         
+        * Master of Engineering
+        * Major in Electrical and Computer Engineering
+
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
     company_url: ''
@@ -42,7 +46,16 @@ experience:
         
         * GPA:3.76
         * Major in Electronic and Information Engineering
-        * Minor in Computing
+        * Graduated with First Class Honours
+    
+    - title: Outbound Exchange
+    company: Georgia Institute of Technology
+    company_url: ''
+    company_logo: gatech
+    location: Atlanta, USA
+    date_start: '2022-01-05'
+    date_end: '2022-05-07'
+    description: Exchange for one semester
 design:
   columns: '2'
 ---
