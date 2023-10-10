@@ -30,7 +30,7 @@ experience:
     location: Ithaca, NY, United States
     date_start: '2023-08-21'
     date_end: '2024-12-31'
-    description: |2-
+    description: |1-
         
         * Master of Engineering
         * Major in Electrical and Computer Engineering
