@@ -22,6 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
     company_url: ''
@@ -35,7 +36,7 @@ experience:
         * Major in Electronic and Information Engineering
         * Graduated with First Class Honours
     
-    - title: Outbound Exchange
+  - title: Outbound Exchange
     company: Georgia Institute of Technology
     company_url: ''
     company_logo: gatech
