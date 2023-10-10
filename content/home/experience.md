@@ -26,15 +26,15 @@ experience:
   - title: Graduate
     company: Cornell University
     company_url: ''
-    company_logo: PolyU
-    location: United States
-    date_start: '2019-09-01'
-    date_end: '2023-08-31'
+    company_logo: Cornell
+    location: Ithaca, NY, United States
+    date_start: '2023-08-21'
+    date_end: '2024-12-31'
     description: |2-
         
-        * GPA:3.76
-        * Major in Electronic and Information Engineering
-        * Graduated with First Class Honours
+        * Master of Engineering
+        * Major in Electrical and Computer Engineering
+        * Currently attending
     
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
@@ -42,10 +42,10 @@ experience:
     company_logo: PolyU
     location: Hong Kong
     date_start: '2019-09-01'
-    date_end: '2023-08-31'
+    date_end: '2023-05-31'
     description: |2-
         
-        * GPA:3.76
+        * GPA:3.80
         * Major in Electronic and Information Engineering
         * Graduated with First Class Honours
     
