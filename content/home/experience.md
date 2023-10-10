@@ -22,6 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
+  - title: Graduate
+    company: Cornell University
+    company_url: ''
+    company_logo: PolyU
+    location: United States
+    date_start: '2019-09-01'
+    date_end: '2023-08-31'
+    description: |2-
+        
+        * GPA:3.76
+        * Major in Electronic and Information Engineering
+        * Graduated with First Class Honours
+    
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
     company_url: ''
