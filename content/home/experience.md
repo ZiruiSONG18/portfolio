@@ -34,7 +34,7 @@ experience:
         
         * Master of Engineering
         * Major in Electrical and Computer Engineering
-
+  
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
     company_url: ''
