@@ -23,18 +23,6 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
-  - title: Graduate
-    company: Cornell University
-    company_url: ''
-    company_logo: PolyU
-    location: Ithaca, NY, United States
-    date_start: '2023-08-21'
-    date_end: '2024-12-31'
-    description: |2-
-        
-        * Master of Engineering
-        * Major in Electrical and Computer Engineering
-    
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
     company_url: ''
