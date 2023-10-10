@@ -34,7 +34,7 @@ experience:
         
         * Master of Engineering
         * Major in Electrical and Computer Engineering
-  
+    
   - title: Undergraduate
     company: The Hong Kong Polytechnic University
     company_url: ''
@@ -56,6 +56,7 @@ experience:
     date_start: '2022-01-05'
     date_end: '2022-05-07'
     description: Exchange for one semester
+
 design:
   columns: '2'
 ---
