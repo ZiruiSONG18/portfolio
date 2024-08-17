@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
-  - title: Graduate
+  - title: Master
     company: Cornell University
     company_url: ''
     company_logo: Cornell
@@ -34,9 +34,9 @@ experience:
         
         * Master of Engineering
         * Major in Electrical and Computer Engineering
-        * Currently attending
+        * Currently attending, GPA:3.83
     
-  - title: Undergraduate
+  - title: Bachelor
     company: The Hong Kong Polytechnic University
     company_url: ''
     company_logo: PolyU
