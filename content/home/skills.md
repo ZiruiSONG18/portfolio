@@ -19,11 +19,11 @@ feature:
 -
   icon: fas fa-database
   icon_pack: fas
-  name: Database
+  name: SQL
 -
-  icon: fas fa-tv
+  icon: fas fa-brain
   icon_pack: fas
-  name: Computer Vision
+  name: Deep Learning
 -
   icon: fas fa-signal
   icon_pack: fas
